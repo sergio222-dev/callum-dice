@@ -1,0 +1,26 @@
+{
+  "name": "xadia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/boot.js",
+    "register": "tsc && node dist/commands_register.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^4.0.8",
+    "discord.js": "^14.15.3",
+    "typescript": "^5.5.4",
+    "utf-8-validate": "^6.0.4",
+    "zlib-sync": "^0.1.9"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2"
+  }
+}
